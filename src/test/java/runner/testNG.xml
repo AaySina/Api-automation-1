@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="API Test Suite" verbose="1" parallel="tests" thread-count="3">
+
+    <listeners>
+        <listener class-name="Listeners.ExtentTestNGTestListener"/>
+    </listeners>
+
+    <test name="AuthTests">
+        <classes>
+            <class name="tests.auth.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="SportActivityTests">
+        <classes>
+            <class name="tests.SportActivity.CreateSportActivityTest"/>
+            <class name="tests.SportActivity.GetSportActivityByIdTest"/>
+            <class name="tests.SportActivity.UpdateSportActivityTest"/>
+            <class name="tests.SportActivity.DeleteSportActivityByIdTest"/>
+        </classes>
+    </test>
+
+    <test name="SportCategoryTests">
+        <classes>
+            <class name="tests.SportCategory.GetSportCategoriesTest"/>
+            <class name="tests.SportCategory.CreateSportCategoryTest"/>
+            <class name="tests.SportCategory.UpdateSportCategoryTest"/>
+            <class name="tests.SportCategory.DeleteSportCategoryByIdTest"/>
+        </classes>
+    </test>
+
+</suite>
