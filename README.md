@@ -57,6 +57,6 @@ Dibangun dengan pendekatan *clean code* dan siap CI/CD, kerangka kerja ini bertu
 | :--- | :--- | :--- |
 | **Test Plan & Cases** | Detail perencanaan dan skenario pengujian fungsionalitas API. | **https://docs.google.com/spreadsheets/d/1rAIknbR1oud4TP6sbQ7zcd2y9I17VelIvwaCFfQBuLo/edit?hl=id&gid=0#gid=0** |
 | **Jawaban Assignment** | Jawaban untuk pertanyaan tertulis/Q&A tugas bootcamp. | **https://docs.google.com/document/d/1iLe5A_abDvWOcWp6MX2qR4btXogzsx5FiD2OSa5A3Xs/edit?tab=t.0** |
-| **Status CI/CD** | Status eksekusi otomatis terakhir di GitHub Actions. | [![CI Status](https://github.com/username/API-AUTOMATION-Dibimbing/actions/workflows/ci.yml/badge.svg)](https://github.com/username/API-AUTOMATION-Dibimbing/actions/workflows/ci.yml) |
+| **Status CI/CD** | Status eksekusi otomatis terakhir di GitHub Actions. | [![CI Status](https://github.com/AaySina/API-AUTOMATION-Dibimbing/actions/workflows/ci.yml/badge.svg)](https://github.com/AaySina/API-AUTOMATION-Dibimbing/actions/workflows/ci.yml) |
 
 ---
