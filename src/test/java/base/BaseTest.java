@@ -12,7 +12,8 @@ public class BaseTest {
 
     @BeforeClass
     public void setup() throws Exception {
-        RestAssured.baseURI = ConfigReader.getProperty("baseUrl");
+        String baseUrl = ConfigReader.getProperty("baseUrl");
+        RestAssured.baseURI = baseUrl;
         logger.info("Base URI set to: {}", RestAssured.baseURI);
     }
 

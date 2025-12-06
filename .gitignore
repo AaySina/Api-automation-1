@@ -51,8 +51,3 @@ allure-report/
 # === Logs & Screenshots ===
 reports-output/logs/
 reports-output/screenshots/
-
-# === JSON tokens & IDs===
-src/test/resources/json/token.json
-src/test/resources/json/activity_id.json
-src/test/resources/json/category_id.json
