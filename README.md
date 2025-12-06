@@ -1,13 +1,13 @@
 #API Automation Framework Day 32 – Dibimbing Bootcamp
 
-## 📌 Deskripsi Proyek
+## Deskripsi Proyek
 Proyek ini adalah kerangka kerja otomatisasi pengujian *end-to-end* untuk **API Sport Reservation Bootcamp**.
 
 Dibangun dengan pendekatan *clean code* dan siap CI/CD, kerangka kerja ini bertujuan untuk menyediakan sistem pengujian API yang **andal, mudah dikelola, dan skalabel**.
 
 ---
 
-## 🛠️ Tumpukan Teknologi
+## Tumpukan Teknologi
 | Komponen | Teknologi | Tujuan |
 | :--- | :--- | :--- |
 | Bahasa | **Java 21** | Bahasa inti implementasi |
@@ -19,7 +19,7 @@ Dibangun dengan pendekatan *clean code* dan siap CI/CD, kerangka kerja ini bertu
 
 ---
 
-## 🚀 Fitur Utama
+## Fitur Utama
 * **Desain Modular:** Menggunakan pola `BaseTest` dan *helper classes* untuk kode yang dapat digunakan kembali.
 * **Data-Driven Testing:** Memanfaatkan file **JSON** sebagai sumber data untuk *request body* dan data dinamis (misalnya, token, ID).
 * **CI/CD Pipeline:** Otomasi eksekusi pengujian pada setiap *commit* ke *branch* `master`.
@@ -30,7 +30,7 @@ Dibangun dengan pendekatan *clean code* dan siap CI/CD, kerangka kerja ini bertu
 
 ---
 
-## ⚙️ Cara Menjalankan
+## Cara Menjalankan
 
 ### 1. Eksekusi Lokal
 1.  **Clone Repositori:**
@@ -57,6 +57,6 @@ Dibangun dengan pendekatan *clean code* dan siap CI/CD, kerangka kerja ini bertu
 | :--- | :--- | :--- |
 | **Test Plan & Cases** | Detail perencanaan dan skenario pengujian fungsionalitas API. | **https://docs.google.com/spreadsheets/d/1rAIknbR1oud4TP6sbQ7zcd2y9I17VelIvwaCFfQBuLo/edit?hl=id&gid=0#gid=0** |
 | **Jawaban Assignment** | Jawaban untuk pertanyaan tertulis/Q&A tugas bootcamp. | **https://docs.google.com/document/d/1iLe5A_abDvWOcWp6MX2qR4btXogzsx5FiD2OSa5A3Xs/edit?tab=t.0** |
-| **Status CI/CD** | Status eksekusi otomatis terakhir di GitHub Actions. | [![CI Status](https://github.com/AaySina/API-AUTOMATION-Dibimbing/actions/workflows/ci.yml/badge.svg)](https://github.com/AaySina/API-AUTOMATION-Dibimbing/actions/workflows/ci.yml) |
+| **Status CI/CD** | Status eksekusi otomatis terakhir di GitHub Actions. | [![CI Status](https://github.com/AaySina/Api-automation-1/tree/master/.github/workflows)](https://github.com/AaySina/Api-automation-1/actions) |
 
 ---
