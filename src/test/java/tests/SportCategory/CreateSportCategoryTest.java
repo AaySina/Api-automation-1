@@ -40,7 +40,7 @@ public class CreateSportCategoryTest {
                 .header("Accept", "application/json")
                 .body(requestBody.toString())
                 .when()
-                .post("/sport-categories/create")
+                .post("/sport-categories/create/")
                 .then()
                 .extract().response();
 

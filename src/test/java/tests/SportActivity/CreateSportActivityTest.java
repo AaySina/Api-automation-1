@@ -105,7 +105,7 @@ public class CreateSportActivityTest extends BaseTest {
                 .header("Accept", "application/json")
                 .body(requestBody.toString())
                 .when()
-                .post("/sport-activities/create")
+                .post("/sport-activities/create/")
                 .then()
                 .extract().response();
 

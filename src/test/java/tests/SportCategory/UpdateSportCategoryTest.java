@@ -5,15 +5,28 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.json.JSONObject;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import Utils.ConfigReader;
 
+import java.io.FileReader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
 import static io.restassured.RestAssured.given;
 
 public class UpdateSportCategoryTest {
+    private String token;
+
+    @BeforeClass
+    public void setup() throws Exception {
+        RestAssured.baseURI = ConfigReader.getProperty("baseUrl");
+
+        try (FileReader reader = new FileReader("src/test/resources/json/token.json")) {
+            JSONObject tokenJson = new JSONObject(new org.json.JSONTokener(reader));
+            token = tokenJson.getString("token");
+        }
+    }
 
     @Test
     public void updateSportCategory() throws Exception {
