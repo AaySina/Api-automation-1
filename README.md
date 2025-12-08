@@ -36,6 +36,7 @@ Dibangun dengan pendekatan *clean code* dan siap CI/CD, kerangka kerja ini bertu
 1.  **Clone Repositori:**
     ```bash
    git clone [https://github.com/username/API-AUTOMATION-Dibimbing.git](https://github.com/username/API-AUTOMATION-Dibimbing.git)
+     ```
 2.  **Jalankan Pengujian:**
     ```bash
     ./gradlew clean test
@@ -51,11 +52,10 @@ Dibangun dengan pendekatan *clean code* dan siap CI/CD, kerangka kerja ini bertu
 ---
 
 ## 📊 Bukti dan Dokumentasi Tugas
-
 | Dokumentasi | Keterangan | Tautan |
 | :--- | :--- | :--- |
 | **Test Plan & Cases** | Detail perencanaan dan skenario pengujian fungsionalitas API. | [Tautan Spreadsheet](https://docs.google.com/spreadsheets/d/1rAIknbR1oud4TP6sbQ7zcd2y9I17VelIvwaCFfQBuLo/edit?hl=id&gid=0#gid=0) |
 | **Jawaban Assignment** | Jawaban untuk pertanyaan tertulis/Q&A tugas bootcamp. | [Tautan Dokumen](https://docs.google.com/document/d/1iLe5A_abDvWOcWp6MX2qR4btXogzsx5FiD2OSa5A3Xs/edit?tab=t.0) |
-| **Status CI/CD** | Status eksekusi otomatis terakhir di GitHub Actions. [![CI Status](https://github.com/AaySina/Api-automation-1/workflows/Nama%20Workflow%20Anda/badge.svg)](https://github.com/AaySina/Api-automation-1/actions) | [Lihat Actions](https://github.com/AaySina/Api-automation-1/actions) |
+| **Status CI/CD** | Status eksekusi otomatis terakhir di GitHub Actions. [![CI Status](https://github.com/AaySina/Api-automation-1/workflows/CI/badge.svg)](https://github.com/AaySina/Api-automation-1/actions) | [Lihat Actions](https://github.com/AaySina/Api-automation-1/actions) |
 
 ---
