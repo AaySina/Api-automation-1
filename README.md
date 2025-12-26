@@ -1,4 +1,4 @@
-# 🛠️ API Automation Framework: Sport Reservation Bootcamp
+# API Automation Framework: Sport Reservation Bootcamp
 
 ## Latar Belakang Proyek
 Proyek ini merupakan **kerangka kerja otomatisasi pengujian *end-to-end*** untuk **API Sport Reservation Bootcamp** yang diselenggarakan oleh Dibimbing (Day 32).
@@ -30,7 +30,7 @@ Dibangun dengan filosofi *clean code* dan dirancang siap untuk integrasi CI/CD, 
 
 ---
 
-## ⚙️ Cara Menjalankan
+## Cara Menjalankan
 
 ### 1. Eksekusi Lokal
 
